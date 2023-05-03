@@ -33,8 +33,8 @@ Este repositorio contiene los archivos y recursos para el curso de TypeScript, d
 - Excepciones
 - Lectura de archivos
 
-### Clase IV: Una ojeada a la programación funcional
-
+### Clase IV: Programas de Consultas
+- Una ojeada a la programación funcional
 - Métodos y Códigos de estado HTTP
 - Desarrollo de una API básica
 
