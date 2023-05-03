@@ -2,13 +2,6 @@
 
 Este repositorio contiene los archivos y recursos para el curso de TypeScript, dividido en cuatro clases.
 
-## Clases
-
-- Clase I: Introducción
-- Clase II: Objetos
-- Clase III: Otros recursos, excepciones y archivos
-- Clase IV: Una ojeada a la programación funcional
-
 ## Temario
 
 ### Clase I: Introducción
