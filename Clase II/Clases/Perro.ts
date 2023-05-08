@@ -38,11 +38,7 @@ class Perro implements IPerro {
     private _color: string;
     private _comidasFavoritas: string[];
     private _gustaJugar: boolean;
-    private _vacunas?: {
-        rabia: boolean;
-        moquilloCanino: boolean;
-        parvo: boolean;
-    };
+    private _vacunas?: Vacunas;
     private _historialClinico: HistorialClinico;
     private _madre?: IPerro;
     private _padre?: IPerro;
