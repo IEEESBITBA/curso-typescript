@@ -23,9 +23,9 @@ interface IPerro {
     padre?: IPerro;
 
     crecer: () => void;
-    añadirOperacion: (operacion: string) => void;
-    añadirEnfermedad: (enfermedad: string) => void;
-    añadirInformacionPadre: (padre: IPerro) => void;
-    añadirInformacionMadre: (madre: IPerro) => void;
-    añadirVacunas: (vacunas: Vacunas) => void;
+    agregarOperacion: (operacion: string) => void;
+    agregarEnfermedad: (enfermedad: string) => void;
+    agregarInformacionPadre: (padre: IPerro) => void;
+    agregarInformacionMadre: (madre: IPerro) => void;
+    agregarVacunas: (vacunas: Vacunas) => void;
 }
