@@ -23,11 +23,11 @@ interface IPerro {
     padre?: IPerro;
 
     crecer: () => void;
-    añadirOperacion: (operacion: string) => void;
-    añadirEnfermedad: (enfermedad: string) => void;
-    añadirInformacionPadre: (padre: IPerro) => void;
-    añadirInformacionMadre: (madre: IPerro) => void;
-    añadirVacunas: (vacunas: Vacunas) => void;
+    agregarOperacion: (operacion: string) => void;
+    agregarEnfermedad: (enfermedad: string) => void;
+    agregarInformacionPadre: (padre: IPerro) => void;
+    agregarInformacionMadre: (madre: IPerro) => void;
+    agregarVacunas: (vacunas: Vacunas) => void;
 }
 
 class Perro implements IPerro {
@@ -118,27 +118,27 @@ class Perro implements IPerro {
         this._peso += 2;
     }
 
-    añadirOperacion(operacion: string) {
+    agregarOperacion(operacion: string) {
         if (!!operacion) {
             this._historialClinico.operaciones.push(operacion);
         }
     }
 
-    añadirEnfermedad(enfermedad: string) {
+    agregarEnfermedad(enfermedad: string) {
         if (!!enfermedad) {
             this._historialClinico.enfermedades.push(enfermedad)
         }
     }
 
-    añadirInformacionPadre(padre: IPerro) {
+    agregarInformacionPadre(padre: IPerro) {
         this._padre = padre;
     }
 
-    añadirInformacionMadre(madre: IPerro) {
+    agregarInformacionMadre(madre: IPerro) {
         this._madre = madre;
     }
 
-    añadirVacunas(vacunas: Vacunas) {
+    agregarVacunas(vacunas: Vacunas) {
         this._vacunas = vacunas
     }
 }
@@ -155,4 +155,4 @@ const miPerro = new Perro("Fido", "Golden Retriever", 5, 25, "Dorado", ["carne",
 console.log(miPerro.nombre); // imprime "Fido". No hay que escribir get
 miPerro.crecer(); // hace que el perro crezca un año y aumente su peso
 console.log(miPerro.edad); // imprime 6
-miPerro.añadirEnfermedad("gripe canina"); // agrega una enfermedad al historial clínico del perro
+miPerro.agregarEnfermedad("gripe canina"); // agrega una enfermedad al historial clínico del perro
