@@ -4,7 +4,7 @@ Este repositorio contiene los archivos y recursos para el curso de TypeScript, d
 
 ## Temario
 
-### Clase I: Introducción
+### [Clase I: Introducción](https://github.com/IEEESBITBA/curso-typescript/blob/main/Clase%20I/Clase%20I.pdf)
 
 - ¿Qué es un lenguaje de Programación?
 - Ventajas y desventajas de TypeScript
@@ -13,7 +13,7 @@ Este repositorio contiene los archivos y recursos para el curso de TypeScript, d
 - Variables y tipos
 - Ciclos y condicionales
 
-### Clase II: Objetos
+### [Clase II: Objetos](https://github.com/IEEESBITBA/curso-typescript/blob/main/Clase%20II/Clase%20II.pdf)
 
 - Arreglos
 - Nuestra primera función
@@ -25,7 +25,7 @@ Este repositorio contiene los archivos y recursos para el curso de TypeScript, d
 - Clases
 - Organización y separación de archivos
 
-### Clase III: Otros recursos, excepciones y archivos
+### [Clase III: Otros recursos, excepciones y archivos](https://github.com/IEEESBITBA/curso-typescript/blob/main/Clase%20III/Clase%20III.pdf)
 
 - Extensión de clases
 - Generics
@@ -33,7 +33,7 @@ Este repositorio contiene los archivos y recursos para el curso de TypeScript, d
 - Excepciones
 - Lectura de archivos
 
-### Clase IV: Programas de Consultas
+### [Clase IV: Programas de Consultas](https://github.com/IEEESBITBA/curso-typescript/blob/main/Clase%20IV/Clase%20IV.pdf)
 - Una ojeada a la programación funcional
 - Métodos y Códigos de estado HTTP
 - Desarrollo de una API básica
