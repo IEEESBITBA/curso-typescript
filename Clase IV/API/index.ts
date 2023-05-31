@@ -1,4 +1,4 @@
-import * as express from 'express';
+import express from "express";
 import {Request, Response} from 'express';
 import {StatusCodes} from "http-status-codes";
 import EquiposHandler from "./Clases/EquiposHandler";
@@ -16,7 +16,6 @@ async function main() {
 
     // GET
     app.get('/equipos', (req: Request, res: Response) => equiposHandler.obtenerPrimerosN(req, res));
-    app.get('/equipos/edad_promedio', (req: Request, res: Response) => equiposHandler.obtenerEdadPromedioPrimerosN(req, res));
     app.get('/equipos/:equipo', (req: Request, res: Response) => equiposHandler.obtenerEquipo(req, res));
     app.get('*', (req, res) => res.status(StatusCodes.NOT_FOUND).send('URL inválida'));
 }

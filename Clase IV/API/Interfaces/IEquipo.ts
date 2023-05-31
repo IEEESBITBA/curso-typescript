@@ -1,9 +1,10 @@
 export default interface IEquipo {
     club: string;
-    edadPromedio: number;
-    tamanioEquipo: number;
-    valorMercado: number
-    vMPromedioJugador: number;
-    vmTop18Jugadores: number;
+    ranking: number;
+    pais: string;
+    puntajeActual: number
+    puntajeAnterior: number;
+    cambioPuntaje: number;
+    cambioPuntajeSigno: string;
     toJson: () => Partial<IEquipo>;
 }

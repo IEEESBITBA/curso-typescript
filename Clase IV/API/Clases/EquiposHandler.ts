@@ -7,7 +7,7 @@ export default class EquiposHandler {
 
     public leerEquipos = async (req: Request, res: Response): Promise<void> => {
         try {
-            await this._equipos.leerEquipos('./equipos_mas_valiosos.xlsx');
+            await this._equipos.leerEquipos('./Rankings Football June 2022.csv');
             res.status(StatusCodes.CREATED).send();
         } catch (e) {
             res.status(StatusCodes.INTERNAL_SERVER_ERROR).send();
@@ -35,21 +35,6 @@ export default class EquiposHandler {
                     res.status(StatusCodes.OK).send(datosEquipo);
                 }
             } catch (e) {
-                res.status(StatusCodes.INTERNAL_SERVER_ERROR).send();
-            }
-        } else {
-            res.status(StatusCodes.BAD_REQUEST).send('Cantidad de equipos (N) faltante');
-        }
-    }
-
-    public obtenerEdadPromedioPrimerosN = (req: Request, res: Response): void => {
-        if (!!req.query.N) {
-            try {
-                const N = parseInt(<string>req.query.N);
-                const edadPromedioPrimerosN = this._equipos.obtenerEdadPromedioPrimerosN(N);
-                res.status(StatusCodes.OK).send({edadPromedioPrimerosN: edadPromedioPrimerosN});
-            } catch (e) {
-                console.log(e)
                 res.status(StatusCodes.INTERNAL_SERVER_ERROR).send();
             }
         } else {

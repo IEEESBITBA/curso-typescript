@@ -2,54 +2,58 @@ import IEquipo from "../Interfaces/IEquipo";
 
 export default class Equipo implements IEquipo {
     private readonly _club: string;
-    private readonly _edadPromedio: number;
-    private readonly _tamanioEquipo: number;
-    private readonly _vMPromedioJugador: number;
-    private readonly _valorMercado: number;
-    private readonly _vmTop18Jugadores: number;
+    private readonly _pais: string;
+    private readonly _puntajeActual: number;
+    private readonly _puntajeAnterior: number;
+    private readonly _ranking: number;
+
+    constructor(club: string, pais: string, puntajeActual: number, puntajeAnterior: number, ranking: number) {
+        this._club = club;
+        this._pais = pais;
+        this._puntajeActual = puntajeActual;
+        this._puntajeAnterior = puntajeAnterior;
+        this._ranking = ranking;
+    }
 
     get club(): string {
         return this._club;
     }
 
-    get edadPromedio(): number {
-        return this._edadPromedio;
+    get pais(): string {
+        return  this._pais;
     }
 
-    get tamanioEquipo(): number {
-        return this._tamanioEquipo;
+    get puntajeActual(): number {
+        return this._puntajeActual;
     }
 
-    get vMPromedioJugador(): number {
-        return this._vMPromedioJugador;
+    get ranking(): number {
+        return this._ranking;
     }
 
-    get valorMercado(): number {
-        return this._valorMercado;
+    get puntajeAnterior(): number {
+        return this._puntajeAnterior;
     }
 
-    get vmTop18Jugadores(): number {
-        return this._vmTop18Jugadores;
+    get cambioPuntaje(): number {
+        return Math.abs(this.puntajeActual - this.puntajeAnterior);
     }
 
-    constructor(club: string, edadPromedio: number, tamanioEquipo: number, valorMercado: number,
-                vMPromedioJugador: number, vmTop18Jugadores: number) {
-        this._club = club;
-        this._edadPromedio = edadPromedio;
-        this._tamanioEquipo = tamanioEquipo;
-        this._vMPromedioJugador = vMPromedioJugador;
-        this._valorMercado = valorMercado;
-        this._vmTop18Jugadores = vmTop18Jugadores;
+    get cambioPuntajeSigno(): string {
+        const cambioPuntaje = this.cambioPuntaje;
+        return cambioPuntaje > 0 ? '+': (cambioPuntaje < 0 ? '-' : '');
     }
 
-    public toJson(): Partial<IEquipo> {
+    toJson(): Partial<IEquipo> {
         return {
-            tamanioEquipo: this._tamanioEquipo,
-            vMPromedioJugador: this._vMPromedioJugador,
-            valorMercado: this._valorMercado,
-            vmTop18Jugadores: this._vmTop18Jugadores,
             club: this._club,
-            edadPromedio: this._edadPromedio
-        }
+            pais: this._pais,
+            puntajeActual: this._puntajeActual,
+            puntajeAnterior: this._puntajeAnterior,
+            cambioPuntaje: this.cambioPuntaje,
+            ranking: this._ranking,
+            cambioPuntajeSigno: this.cambioPuntajeSigno,
+        };
     }
+
 }
