@@ -47,3 +47,6 @@ IEEE ITBA Student Branch
 - [Guía de Instalación de Herramientas](https://github.com/IEEESBITBA/curso-typescript/blob/main/Anexo/Gu%C3%ADa%20de%20Instalaci%C3%B3n%20de%20Herramientas.pdf)
 - [Algunos tipos básicos de datos que se utilizarán](https://github.com/IEEESBITBA/curso-typescript/blob/main/Anexo/Tabla%20algunos%20tipos%20de%20dato.pdf)
 
+## Vivos en Youtube
+
+### [Clase I](https://www.youtube.com/watch?v=E5_OozgPquo)
