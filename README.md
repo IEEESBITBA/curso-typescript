@@ -50,3 +50,9 @@ IEEE ITBA Student Branch
 ## Vivos en Youtube
 
 ### [Clase I](https://www.youtube.com/watch?v=E5_OozgPquo)
+
+### [Clase II](https://www.youtube.com/watch?v=QbVQR2ArTpk)
+
+### [Clase III](https://www.youtube.com/watch?v=3iedkJcI4qA)
+
+### [Clase IV](https://www.youtube.com/watch?v=AfSuAkcgHQw)
