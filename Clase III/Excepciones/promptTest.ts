@@ -26,7 +26,7 @@ const main = (): void => {
         try {
             nuevoNumero = leerNumero();
             numeros.push(nuevoNumero);
-        } catch (e: any) {
+        } catch (e: unknown) {
             if( e instanceof  ArgumentoNoEsNumeroError ) {
                 console.log('Ha ingresado un valor incorrecto.');
             }

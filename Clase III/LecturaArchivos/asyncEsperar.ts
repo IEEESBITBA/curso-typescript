@@ -8,7 +8,7 @@ async function ejemploAsincronico(): Promise<void> {
     console.log("Inicio de la función");
 
     // Esperamos 1 segundo antes de continuar con la ejecución
-    await esperar(1000);
+    await esperar(10000);
 
     console.log("Fin de la función");
 }

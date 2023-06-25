@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node index.ts"
   },
-  "author": "IEEE",
+  "author": "IEEE ITBA SB",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.15"
