@@ -2,3 +2,4 @@ node_modules
 .idea
 dist
 package-lock.json
+*/node_modules
