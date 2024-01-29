@@ -1,0 +1,21 @@
+{
+    "name": "variables-y-tipos",
+    "description": "En este paquete se ven las distintas formas de declarar variables y se introducen tipos. Ejercicio: modificar los archivos, para que no arrojen error.",
+    "version": "1.0.0",
+    "scripts": {
+        "ejecutarconst": "ts-node const.ts",
+        "ejecutarlet": "ts-node let.ts",
+        "ejecutarvar": "ts-node var.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IEEESBITBA/curso-typescript.git"
+    },
+    "author": "IEEESITBA",
+    "homepage": "https://github.com/IEEESBITBA/curso-typescript",
+    "dependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}

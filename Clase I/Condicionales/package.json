@@ -1,0 +1,23 @@
+{
+    "name": "condicionales",
+    "description": "En este paquete se ve el funcionamiento de los condicionales con distintos casos de uso",
+    "version": "1.0.0",
+    "scripts": {
+        "ejecutaric": "ts-node ifCiclo.ts",
+        "ejecutariei": "ts-node ifElseIf.ts",
+        "ejecutaris": "ts-node ifSimple.ts",
+        "ejecutarscc": "ts-node switchCaseCiclo.ts",
+        "ejecutarscs": "ts-node switchCaseSimple.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IEEESBITBA/curso-typescript.git"
+    },
+    "author": "IEEESITBA",
+    "homepage": "https://github.com/IEEESBITBA/curso-typescript",
+    "dependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}

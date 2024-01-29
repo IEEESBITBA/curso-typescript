@@ -1,0 +1,27 @@
+{
+    "name": "primer_programa",
+    "description": "Este es el primer programa del curso de TypeScript, donde se ve la funcionalidad de imprimir en pantalla",
+    "version": "1.0.0",
+    "scripts": {
+        "compilar1": "tsc holaMundo1.ts",
+        "correr1": "node holaMundo1.js",
+        "compilarcorrer1": "ts-node holaMundo1.ts",
+        "compilar2": "tsc holaMundo2.ts",
+        "correr2": "node holaMundo2.js",
+        "compilarcorrer2": "ts-node holaMundo2.ts",
+        "compilar3": "tsc holaMundo3.ts",
+        "correr3": "node holaMundo3.js",
+        "compilarcorrer3": "ts-node holaMundo3.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IEEESBITBA/curso-typescript.git"
+    },
+    "author": "IEEESITBA",
+    "homepage": "https://github.com/IEEESBITBA/curso-typescript",
+    "dependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}

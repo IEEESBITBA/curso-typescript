@@ -1,0 +1,23 @@
+{
+    "name": "comparaciones",
+    "description": "En este paquete se ve el funcionamiento de las distintas formas de comparacion",
+    "version": "1.0.0",
+    "scripts": {
+        "ejecutardes": "ts-node desigualdad.ts",
+        "ejecutaria": "ts-node igualdadAbstracta.ts",
+        "ejecutarie": "ts-node igualdadEstricta.ts",
+        "ejecutardorel": "ts-node relacionales.ts",
+        "ejecutarneg": "ts-node negacion.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IEEESBITBA/curso-typescript.git"
+    },
+    "author": "IEEESITBA",
+    "homepage": "https://github.com/IEEESBITBA/curso-typescript",
+    "dependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
