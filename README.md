@@ -2,7 +2,7 @@
 
 Este repositorio contiene los archivos y recursos para el curso de TypeScript, dividido en cuatro clases.
 
-## Vivos en Youtube
+## Clases en Youtube
 
 ### [Clase I](https://www.youtube.com/watch?v=E5_OozgPquo)
 
