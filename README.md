@@ -2,6 +2,16 @@
 
 Este repositorio contiene los archivos y recursos para el curso de TypeScript, dividido en cuatro clases.
 
+## Vivos en Youtube
+
+### [Clase I](https://www.youtube.com/watch?v=E5_OozgPquo)
+
+### [Clase II](https://www.youtube.com/watch?v=QbVQR2ArTpk)
+
+### [Clase III](https://www.youtube.com/watch?v=3iedkJcI4qA)
+
+### [Clase IV](https://www.youtube.com/watch?v=AfSuAkcgHQw)
+
 ## Temario
 
 ### [Clase I: Introducción](https://github.com/IEEESBITBA/curso-typescript/blob/main/Clase%20I/Clase%20I.pdf)
@@ -38,21 +48,11 @@ Este repositorio contiene los archivos y recursos para el curso de TypeScript, d
 - Métodos y Códigos de estado HTTP
 - Desarrollo de una API básica
 
-## Autor
-
-IEEE ITBA Student Branch
-
 ## Recursos extra a las clases
 - [Webgrafia Adicional](https://github.com/IEEESBITBA/curso-typescript/blob/main/Anexo/Listado%20de%20Webgraf%C3%ADa%20adicional.pdf)
 - [Guía de Instalación de Herramientas](https://github.com/IEEESBITBA/curso-typescript/blob/main/Anexo/Gu%C3%ADa%20de%20Instalaci%C3%B3n%20de%20Herramientas.pdf)
 - [Algunos tipos básicos de datos que se utilizarán](https://github.com/IEEESBITBA/curso-typescript/blob/main/Anexo/Tabla%20algunos%20tipos%20de%20dato.pdf)
 
-## Vivos en Youtube
+## Autor
 
-### [Clase I](https://www.youtube.com/watch?v=E5_OozgPquo)
-
-### [Clase II](https://www.youtube.com/watch?v=QbVQR2ArTpk)
-
-### [Clase III](https://www.youtube.com/watch?v=3iedkJcI4qA)
-
-### [Clase IV](https://www.youtube.com/watch?v=AfSuAkcgHQw)
+IEEE ITBA Student Branch
